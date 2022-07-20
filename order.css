@@ -1,0 +1,87 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225deg, 100%, 94%);
+    max-width: 1440px;
+    min-width: 375px;
+    margin: auto;
+    margin-top: 3%;
+    justify-content: center;
+    align-content: center;
+}
+
+h1, h2{
+    color: hsl(223, 47%, 23%);
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* LAYOUTS */
+
+.img{
+    border-radius: 18px 18px 0 0;
+    max-width: 375px;
+    width: 340px;
+}
+
+.box{
+    margin: auto;   
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 18px;
+    max-width: 375px;
+    width: 340px;
+    text-align: center;   
+     
+}
+
+/* BUTTONS */
+
+button{
+    display: flex;
+    margin: auto;
+    border-style: hidden;
+    border-radius: 14px;
+    width: 300px;
+    align-items: center;
+}
+
+.button-2{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    display: block;
+}
+
+.button-1{
+    background-color:  hsl(225, 100%, 98%);
+}
+
+.change{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin-left: 30px; 
+}
+
+.plan{
+    display: block;
+    text-align: start;
+    margin-left: 20px;
+}
+
+
+.order{
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
